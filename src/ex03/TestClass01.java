@@ -80,7 +80,7 @@ public class TestClass01 {
 		
 		System.out.println("=== 삼항 연산자 ===");
 		n1 = 20; n2 = 10;
-		String result = (n1 > n2)?"n1이 n2보다 크다":"구라";
+		String result = (n1 > n2) ? "n1이 n2보다 크다" : "구라";
 		System.out.println( result );
 	}
 }
